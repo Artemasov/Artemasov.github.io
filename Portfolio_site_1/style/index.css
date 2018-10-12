@@ -109,14 +109,10 @@ input.signin_Button{
 	margin-top: -37px;
 	position: absolute;
 }
-p.circule_2_text{
-
-	color: #5196f0;
-	margin-top: -1.7px;
-	font-size: 25px;
-	margin-left: 4.75px;
-	font-family: 'Quicksand', sans-serif;
-
+img.circule_sign{
+	height:20px;
+	padding-left: 5px;
+	padding-top: 5px;
 }
 input.signin_Button:hover{
 	box-shadow: 0 0 30px #434343;
