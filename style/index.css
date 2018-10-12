@@ -37,11 +37,12 @@ p.Prechu{
 	margin-left: 15vw;
 }
 p.circule_text{
-		font-family: 'Open Sans Condensed', sans-serif;
+	font-family: 'Open Sans Condensed', sans-serif;
 	color: white;
 	font-size: 50pt;
 	top: -50px;
 	padding-left: 15px;
+	position:absolute;
 
 }
 .banner{
