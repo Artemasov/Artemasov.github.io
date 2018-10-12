@@ -1,0 +1,220 @@
+.top_menu{
+	float: right;
+	padding-top: 30px;
+	padding-right: 50px;
+}
+a.top_menu_text{
+	font-family: 'Open Sans Condensed', sans-serif;
+	text-decoration: none;
+	font-weight: 400;
+	color: #6b6b6b;
+	font-size: 1.4em;
+	letter-spacing:2px;
+	margin: 1em;
+	
+	
+}
+a.top_menu_text:hover{
+	border-bottom: 2px solid #5196f0
+}
+p.Prechu{
+	float: left;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 3em;
+	letter-spacing:2px;
+	padding: 0;
+	font-weight: 400;
+	margin-left: 15px;
+	margin-top: 0;
+	padding-left:20vw;
+}
+.circule{
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	background-color: #5196f0;
+	margin-top: 12px;
+	margin-left: 15vw;
+}
+p.circule_text{
+	font-family: 'Mukta', sans-serif;
+	color: white;
+	font-size: 50pt;
+	top: -60px;
+	padding-left: 15px;
+	position:absolute;
+
+}
+.banner{
+	background-image: url(../image/index.jpg);
+	background-repeat: no-repeat;
+	width: 100vw;
+	height: 500px;
+	
+	background-size: cover;
+	margin-top: 20px;
+
+}
+img.phone{
+	position: absolute;
+	left: 10vw;
+	top: 150px;
+}
+body{
+	margin:0;
+	overflow-x: hidden;
+}
+p.banner_text1{
+	font-family: 'Quicksand', sans-serif;
+	font-weight: 300;
+	font-size:2.5em ;
+	margin: 0;
+	padding-left: 50vw;
+	padding-top: 80px;
+	color: white;
+	letter-spacing:1px;
+	
+}
+p.banner_text2{
+font-family: 'Quicksand', sans-serif;
+	font-weight: 300;
+	font-size:1.8em ;
+	margin: 0;
+	padding-left: 50vw;
+	color: white;
+	letter-spacing:1px;
+}
+input.signin_Button{
+	margin-top: 25px;
+	margin-left: 52vw;
+	background-color: #5196f0;
+	border-radius: 3px;
+	width: 175px;
+	height: 45px;
+	font-family: 'Quicksand', sans-serif;
+	color: white;
+	text-align: right;
+	padding-right: 13px;
+	border-width: 0;
+	font-size: 1.4em;
+	transition: 0.5s;
+
+}
+.circule_2{
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	background-color: white;
+	margin-left: 52.5vw;
+	margin-top: -37px;
+	position: absolute;
+}
+p.circule_2_text{
+
+	color: #5196f0;
+	margin-top: -1.7px;
+	font-size: 25px;
+	margin-left: 4.75px;
+	font-family: 'Quicksand', sans-serif;
+
+}
+input.signin_Button:hover{
+	box-shadow: 0 0 30px #434343;
+	cursor: pointer;
+}
+img.button_arrow_right{
+	position: absolute;
+	right: 3vw;
+	top:350px;
+}
+img.button_arrow_left{
+	position: absolute;
+	left: 3vw;
+	top:350px;
+}
+img.button_arrow_left:hover{
+	cursor: pointer;
+}
+img.button_arrow_right:hover{
+	cursor: pointer;
+}
+.cards{
+	height: 400px;
+	width: 100vw;
+	text-align: center;
+	margin-top: 100px;
+	display: table;
+	padding: 0;
+}
+.cards_and_text{
+	display: table-cell;
+}
+p.h_cards_text{
+	color:#5196f0;
+	font-family: 'Quicksand', sans-serif;
+	font-weight: 200;
+	margin-left: 0;
+	margin-right: 0;
+	font-size: 1.3em;
+}
+p.cards_text{
+	font-family: 'Quicksand', sans-serif;
+	font-weight: 200;
+	font-size: 1em;
+	margin: 0;
+}
+.product{
+	margin-left: 4vw;
+	height: 500px;
+
+}
+p.Shoping_card{
+	font-family: 'Quicksand', sans-serif;
+	color: #6f7072;
+	font-weight: 400;
+	font-size: 3em;
+	margin-left: 12vw;
+	margin-bottom: 0;
+}
+img.basket{
+	float: left;
+	margin-left: 15vw;
+	margin-top: 60px;
+	margin-right: 10vw;
+
+}
+h2.h_product{
+font-weight: 300;
+margin-top: -28px;
+font-family: 'Quicksand', sans-serif;
+color: #6f7072;
+}
+p.product_text{
+	font-family: 'Quicksand', sans-serif;
+	float: left;
+	width: 30vw;
+	letter-spacing:1px;
+	font-weight: 300;
+}
+.footer{
+	width: 100vw;
+	height: 2px;
+	background-color: black;
+	opacity: 0.05;
+	margin-bottom: 20px;
+}
+p.footer_p{
+	font-family: 'Quicksand', sans-serif;
+	text-align: center;
+	opacity: 0.1;
+	font-size:0.8em;
+}
+p.footer2_p{
+	font-family: 'Quicksand', sans-serif;
+	text-align: center;
+	opacity: 0.3;
+	font-size:0.8em;
+}
+.slider{
+	visibility: visible;	
+}
