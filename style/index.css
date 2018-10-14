@@ -1,6 +1,6 @@
 ﻿.banner{
 	background-image: url('../image/banner.jpg');
-	height: 550px;
+	height: 600px;
 	background-size: cover;
 	margin-top: 60px;
 	background-repeat: no-repeat;
@@ -45,7 +45,7 @@ p.text_banner{
 	font-family: 'Comfortaa', cursive;
 	font-size: 3em;
 	margin-left: 125vw;
-	width: 50vw;
+	width: 600px;
 	display: inline-block;
 	margin-bottom: 0;
 	border-radius: 15px;
@@ -76,7 +76,7 @@ background: linear-gradient(to bottom, rgba(0,0,0,0) 2%,rgba(0,0,0,0) 35%,rgba(0
 position: absolute;
 height: 150px;
 width: 100vw;
-margin-top: 90px;
+margin-top: 140px;
 }
 .gradient_top{
 	position: absolute;
@@ -97,7 +97,7 @@ p.Name{
 	font-size: 1.05em;
 }
 .button_project{
-	width: 22.5vw;
+	width: 300px;
 	height: 60px;
 	border: 1px solid white;
 	margin-left: 150vw;
@@ -110,7 +110,7 @@ p.Name{
 	text-align: center;
 	display: inline-block;
 	height: 60px;
-	margin-top: 20px;
+	margin-top: 22px;
 
 }
 p.button_project_text{
@@ -121,4 +121,30 @@ font-weight: 400;
 letter-spacing: 2px;
 margin-top:19px;
 font-size: 1.4em
+}
+p.button_project_text:hover{
+	cursor: pointer;
+}
+.Project{
+width: 100vw;
+height: 600px;
+margin: 0;
+margin-top: 420px;
+display: inline-block;
+text-align: center;
+}
+.line{
+	height: 1px;
+	background-color: white;
+	width: 20vw;
+	display: inline-block;
+	opacity: 0.9;
+	margin: 0;
+}
+.project_text_main{
+	color: white;
+	margin: 0;
+	display: inline-block;
+	text-align: center;
+
 }

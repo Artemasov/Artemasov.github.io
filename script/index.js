@@ -5,5 +5,9 @@ $(document).ready(function() {
 		marginLeft:'0vw'
 	},1000,'swing'));
 	
-
+	$('.button_project').click(function(){
+		$('html,body').animate({
+			scrollTop: '650vh'
+		},1000);
+	});
 });
