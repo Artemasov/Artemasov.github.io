@@ -1,4 +1,5 @@
 $(document).ready(function() {
+	var scroling = $('body').innerHeight()*0.4;
 	$('p.text_banner').animate({
 		marginLeft: '0vw'
 	},500,'linear', $('.button_project').animate({
@@ -7,7 +8,12 @@ $(document).ready(function() {
 	
 	$('.button_project').click(function(){
 		$('html,body').animate({
-			scrollTop: '650vh'
+			scrollTop: scroling
 		},1000);
-	});
+		});
+
+	var widthResH = $('h1.project_text_main').innerWidth()/2;
+	widthResH = 0-widthResH;
+	$('h1.project_text_main').css('marginLeft',widthResH)
+	
 });
