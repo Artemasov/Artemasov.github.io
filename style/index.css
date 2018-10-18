@@ -152,7 +152,14 @@ border-radius: 25px;
 	
 }
 .one_page_sites{
-	height: 600px;
+	height: auto;
+	margin-bottom: 80px;
+	text-align: left;
+	margin-left: 3.5vw;
+	margin-top: 20px;
+	margin-right:2vw;
+	display: table;
+	width: 85vw
 }
 .head_text{
 	height: 80px;
@@ -169,17 +176,43 @@ border-radius: 25px;
 	display: inline-block;
 }
 img.Prechu_desktop{
-	position: absolute;
-	display: inline-block;
-	margin:0;
+	
 	left: 10vw;
 	border-radius: 25px;
-	width: 34vw;
+	width: 52vw;
 	height: auto;
 	transition: 0.8s;
-	box-shadow:7px -8px 50px #484848;
-	border-left:0.3px solid white;
+	display: table-cell;
+	margin:0;
+	opacity: 1;
+
 }
-img.Prechu_desktop:hover{
-	width: 36vw;
+span.Prechu{
+	color:white;
+
+	margin-right: 12vw;
+	margin-top: -30px;
+	display: inline-block;
+	font-size: 3.5em;
+	font-family: 'Montserrat Alternates', sans-serif;
+	margin-bottom: 10px;
+	width: 30vw;
 }
+p.Prechu_text{
+	color:white;
+	position: absolute;
+	left:65%;
+	font-family: 'Comfortaa', cursive;
+	display: table-cell;
+	margin: 0;
+	text-align: left;
+	width: 27vw;
+	font-size: 0.95em;
+	letter-spacing: 1.1px;
+	line-height: 1.5;
+	margin-top: -46vh;
+
+
+}
+
+
