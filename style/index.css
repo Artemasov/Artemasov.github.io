@@ -214,5 +214,8 @@ p.Prechu_text{
 
 
 }
+img.Prechu_desktop:hover{
+	cursor: pointer;
+}
 
 
