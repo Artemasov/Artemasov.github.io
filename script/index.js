@@ -15,25 +15,20 @@ $(document).ready(function() {
 			scrollTop: scroling
 		},1000);
 		});
-var Prechu_img = $('img.Prechu_desktop');
+
+$('img.Prechu_desktop').on('click',function(){
+	document.location.href = 'https://artemasov.github.io/Portfolio_site_1/';
+})
 	$('img.Prechu_desktop').mouseenter(function(){
-    $('#Prechu').animate({
-    	opacity: '0.2'
-    },200,'swing',
-    function(){
-   
-    $('#Prechu').attr('src','image/Prechu_desktop_eyes.jpg')
+		$('img.Prechu_desktop').attr('src','image/Prechu_desktop_eyes.jpg');
+
+		
+
 });
 
-	
-	
-
-	
-	
-});
 	$('img.Prechu_desktop').mouseleave(function(){
 		$('img.Prechu_desktop').attr('src','image/Prechu_desktop.jpg');
-	})
+	});
 
 
 	});

@@ -185,8 +185,12 @@ img.Prechu_desktop{
 	display: table-cell;
 	margin:0;
 	opacity: 1;
+	top: 0;
+	z-index: 1;
 
 }
+
+
 span.Prechu{
 	color:white;
 
@@ -216,6 +220,5 @@ p.Prechu_text{
 }
 img.Prechu_desktop:hover{
 	cursor: pointer;
+	
 }
-
-
