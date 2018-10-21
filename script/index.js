@@ -10,8 +10,9 @@ $(document).ready(function() {
 	$('#text_main_me').css('marginLeft',widthResM);
 	
 	//constant for animate scroll
-	var scroling_1 = $('body').innerHeight()*0.31;
-	var scroling_2 = $('body').innerHeight()*0.58;
+	var scroling_1 = ($('body').innerHeight()*0.5);
+
+	var scroling_2 = $('body').innerHeight()*0.56;
 	//Animate main buttons 
 	$('p.text_banner').animate({
 		marginLeft: '0vw'
