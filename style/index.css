@@ -168,7 +168,7 @@ border-radius: 25px;
 }
 
 .About_me{
-	margin-top:25vh;
+	margin-top: 40vh;
 	width: 90vw;
 	 border: 1.25px solid white;
 	border-radius: 25px;
@@ -221,4 +221,8 @@ p.Prechu_text{
 img.Prechu_desktop:hover{
 	cursor: pointer;
 	
+}
+.Contact{
+	height: 500px;
+	margin-top: 25vh;
 }
