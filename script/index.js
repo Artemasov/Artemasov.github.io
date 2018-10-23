@@ -10,9 +10,11 @@ $(document).ready(function() {
 	$('#text_main_me').css('marginLeft',widthResM);
 	
 	//constant for animate scroll
-	var scroling_1 = ($('body').innerHeight()*0.5);
+	var scroling_1 = $('.banner').height()+315;
 
-	var scroling_2 = $('body').innerHeight()*0.56;
+	var scroling_2 = $('.banner').height()+315+$('div.About_me.border_line').height()+$('div.Project.border_line').height();
+
+	var scroling_3 = $('body').height();
 	//Animate main buttons 
 	$('p.text_banner').animate({
 		marginLeft: '0vw'
@@ -36,6 +38,12 @@ $(document).ready(function() {
  	$('p.top_menu_me').click(function(){
  		$('html,body').animate({
  			scrollTop: scroling_2
+ 		},1000);
+ 	});
+
+ 	$('p.top_menu_contact').click(function(){
+ 		$('html,body').animate({
+ 			scrollTop: scroling_3
  		},1000);
  	});
  
