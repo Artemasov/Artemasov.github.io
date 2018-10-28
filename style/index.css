@@ -20,7 +20,7 @@ body{
 	float: right;
 	margin-right: 4vw;
 	width: 100vw;
-	
+	visibility: visible;
 	text-align: right;
 
 }
@@ -32,6 +32,7 @@ p.text_top_menu{
 	display: inline;
 	padding-bottom: 4px;
 
+	text-align: right; 
 
 }
 p.text_top_menu:hover{
@@ -160,8 +161,8 @@ height: auto;
 	margin-left: 3.5vw;
 	margin-top: 20px;
 	margin-right:2vw;
-	display: table;
-	width: 85vw
+	display: inline-block;
+	float: left;
 }
 .head_text{
 	height: 80px;
@@ -175,7 +176,7 @@ img.Prechu_desktop{
 	width: 52vw;
 	height: auto;
 	transition: 0.8s;
-	display: table-cell;
+	display: inline-block;
 	margin:0;
 	opacity: 1;
 	top: 0;
@@ -197,19 +198,19 @@ span.Prechu{
 }
 p.Prechu_text{
 	color:white;
-	position: absolute;
-	left:65%;
+	
+	
 font-family: 'Montserrat Alternates', sans-serif;
-	display: table-cell;
+	display: inline-block;
 	margin: 0;
 	text-align: left;
-	width: 27vw;
-	font-size: 1.07em;
+	float: right;
+	font-size: 13pt;
 	letter-spacing: 1.1px;
 	line-height: 1.5;
-	margin-top: -46vh;
-
-
+	width: 25vw;
+	margin-top: 7%;
+	margin-right: 2.5vw;
 }
 img.Prechu_desktop:hover{
 	cursor: pointer;
@@ -249,19 +250,39 @@ img.Prechu_desktop:hover{
 position: absolute;
 margin-top: 65px;
 }
+.mobl_button{
+	visibility: hidden;
+	width: 100vw;
+
+	height:45px;
+}
+img.button_m{
+	width: 125px;
+	float: right;
+	height:auto;
+}
+.desktop_top_menu{
+	margin-top: -115px;
+	width: 100vw;
+	float: right;
+}
 @media (max-device-width:480px){
 	.banner{
 		height: 35vh;
-		width: 120vw
+		width: 100vw
 		}
 	body{
-		width: 107vw;
+		width: 100vw;
+		height: auto;
 	}	
 	.banner_border{
 		margin-top: 10vh;
 	}
-	p.Prechu_text{
-		margin-top: -14vh;
-		left: 68%;
+	.desktop_top_menu{
+		visibility: hidden;
 	}
+	.mobl_button{
+		visibility: visible;
+	}
+	
 }

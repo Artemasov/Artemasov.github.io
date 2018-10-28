@@ -12,7 +12,7 @@ $(document).ready(function() {
 	//constant for animate scroll
 	var scroling_1 = $('.banner').height()+315;
 
-	var scroling_2 = $('.banner').height()+315+$('div.About_me.border_line').height()+$('div.Project.border_line').height();
+	var scroling_2 = $('.banner').height()+315+$('div.About_me.border_line').height()+$('div.Project.border_line').height()+80;
 
 	var scroling_3 = $('body').height();
 	//Animate main buttons 
