@@ -257,7 +257,7 @@ margin-top: 65px;
 	height:45px;
 }
 img.button_m{
-	width: 125px;
+	width: 100px;
 	float: right;
 	height:auto;
 }
@@ -267,6 +267,13 @@ img.button_m{
 	float: right;
 }
 @media (max-device-width:480px){
+	.text_banner{
+		transform: scale(1.35);
+	}
+	.empty_button_project{
+		transform: scale(1.35);
+		margin-top: 50px;
+	}
 	.banner{
 		height: 35vh;
 		width: 100vw
@@ -283,6 +290,27 @@ img.button_m{
 	}
 	.mobl_button{
 		visibility: visible;
+	}
+	p.Prechu_text{
+		width: 75vw;
+		float: unset;
+		text-align: center;
+		font-size: 1.7em;	
+		margin-right: 0;	
+	}
+	span.Prechu{
+		margin-right: 0vw;
+		font-size: 3em;
+	}
+	.head_text{
+		transform: scale(1.6);
+	}
+	.one_page_sites{
+		display: block;
+		float: unset;
+	}
+	img.Prechu_desktop{
+		width: 80vw;
 	}
 	
 }
